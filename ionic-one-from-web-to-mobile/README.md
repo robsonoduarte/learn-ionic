@@ -10,4 +10,5 @@
 * Lecture 36: [ng-repeat & fiters](http://play.ionic.io/app/91d0e6918e25)
 * Lecture 37: [Dependancy Injection & Services](http://play.ionic.io/app/91453d4dcdd3)
 * Lecture 38: [$http and promises with the $q](http://play.ionic.io/app/b92d9b9f75bd)
+* Lecture 39: [Digest, Apply & handling callbacks from outside Angular](http://play.ionic.io/app/6408154cf4eb)
 
