@@ -1,7 +1,7 @@
 #[Ionic 1 From Web To Mobile](https://www.udemy.com/ionic-from-web-to-mobile/) 
 
 
-## AngularJS Review 
+## [AngularJS](https://angularjs.org/) Review 
 
 * Lecture 32: [ng-click & ng-submit](http://play.ionic.io/app/28a7f35abf31)
 * Lecture 33: [ng-class](http://play.ionic.io/app/f9467b5b6254)
