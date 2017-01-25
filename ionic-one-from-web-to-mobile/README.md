@@ -9,5 +9,5 @@
 * Lecture 35: [ng-show, ng-hide, ng-if](http://play.ionic.io/app/aeef5ec2184b)
 * Lecture 36: [ng-repeat & fiters](http://play.ionic.io/app/91d0e6918e25)
 * Lecture 37: [Dependancy Injection & Services](http://play.ionic.io/app/91453d4dcdd3)
-* Lecture 38: [$http and promises with the $q](http://play.ionic.io/app/b21c5c8e7582)
+* Lecture 38: [$http and promises with the $q](http://play.ionic.io/app/b92d9b9f75bd)
 
