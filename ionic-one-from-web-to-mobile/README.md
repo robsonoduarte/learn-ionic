@@ -3,6 +3,7 @@
 
 ## [AngularJS](https://angularjs.org/) Review 
 
+* Lecture 26: [Data Binding](http://play.ionic.io/app/144653a4175b) 
 * Lecture 32: [ng-click & ng-submit](http://play.ionic.io/app/28a7f35abf31)
 * Lecture 33: [ng-class](http://play.ionic.io/app/f9467b5b6254)
 * Lecture 34: [ng-style](http://play.ionic.io/app/1b1ab9843298)
