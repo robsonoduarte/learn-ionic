@@ -1,7 +1,8 @@
-/*
+
 .pane {
     background-color: black;
 }
+
 
 .ball-center-content {
     display: -webkit-flex;
@@ -9,19 +10,28 @@
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	 align-items: center;
 	-webkit-align-items: center;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	 -ms-flex-pack: center;
+	 justify-content: center;
 	-webkit-justify-content: center;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	 -ms-flex-direction: column;
+	 flex-direction: column;
 	-webkit-flex-direction: column;
 }
+
+
+.logo {
+	height: 60px;
+	width: 60px;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+
 
 .prediction {
 	text-align: center;
@@ -35,12 +45,4 @@
 .prediction.show {
 	opacity: 1;
 }
-
-.logo {
-	height: 60px;
-	width: 60px;
-	margin-top: -50px;
-	margin-bottom: 50px;
-}
-*/
 
