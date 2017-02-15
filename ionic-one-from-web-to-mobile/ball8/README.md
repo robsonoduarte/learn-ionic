@@ -22,4 +22,7 @@ ionic build android
 ionic run android
 ```
 
+ 
+> To Run de [CLI](https://en.wikipedia.org/wiki/Command-line_interface) above you need that [Ionic already installed](http://ionicframework.com/docs/cli/install.html).
+
 
