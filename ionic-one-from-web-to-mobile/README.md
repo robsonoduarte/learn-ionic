@@ -21,5 +21,9 @@
 * Lecture 40 to 47: [The 8 Ball App](https://github.com/robsonoduarte/learn-ionic/tree/master/ionic-one-from-web-to-mobile/ball8)
 
 
+## Section 6 - The Soundboard App 
+* Lecture 48 to 54: [The Soundboard App](https://github.com/robsonoduarte/learn-ionic/tree/master/ionic-one-from-web-to-mobile/soundboard)
+
+
 
 
