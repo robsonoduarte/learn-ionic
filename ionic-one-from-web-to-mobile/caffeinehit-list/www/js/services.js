@@ -29,18 +29,18 @@ app.service("YelpService", function ($q, $http) {
 				lon: self.lon
 			};
 
-			$http.get('https://codecraftpro.com/api/samples/v1/coffee/', {params: params})
+			$http.get('https://api.codecraft.tv/samples/v1/coffee/', {params: params})
 				.success(function (data) {
 					self.isLoading = false;
 					console.log(data);
 
-					//if (data.businesses.length == 0) {
-					//	self.hasMore = false;
-					//} else {
-					//	angular.forEach(data.businesses, function (business) {
-					//		self.results.push(business);
-					//	});
-					//}
+					if (data.businesses.length == 0) {
+						self.hasMore = false;
+					} else {
+						angular.forEach(data.businesses, function (business) {
+							self.results.push(business);
+						});
+					}
 
 					deferred.resolve();
 				})
