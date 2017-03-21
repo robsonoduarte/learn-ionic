@@ -24,6 +24,7 @@
 ## Section 6 - The Soundboard App 
 * Lecture 48 to 54: [The Soundboard App](https://github.com/robsonoduarte/learn-ionic/tree/master/ionic-one-from-web-to-mobile/soundboard)
 
+## Section 7 - IN CONSTRUCTION
 
 
 
