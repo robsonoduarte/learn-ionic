@@ -11,4 +11,15 @@ app.controller("YelpController", function ($scope, YelpService) {
 			})
 		}
 	}
+
+
+	$scope.loadMore = function(){
+		if(!$scope.yelp.isLoading && $scope.yelp.hasMore){
+			$scope.yelp.next().then(function(){
+				$scope.$broadcast('scroll.infiniteScrollComplete')
+			})
+		}
+	}
+
+
 });
