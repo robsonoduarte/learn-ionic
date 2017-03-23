@@ -22,4 +22,12 @@ app.controller("YelpController", function ($scope, YelpService) {
 	}
 
 
+	$scope.getDirections = function(cafe){
+		console.log("get directions for cafe")
+	}
+
+	$scope.openMap = function(cafe){
+		console.log("Opening cafe in maps app")
+	}
+
 });
