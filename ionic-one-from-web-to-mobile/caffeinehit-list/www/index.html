@@ -46,7 +46,8 @@
 
 		<ion-list >
 			<ion-item ng-repeat="cafe in yelp.results"
-			          class="item-thumbnail-left" >
+			          class="item-thumbnail-left"
+			          ng-click="openMap(cafe)">
 				<img ng-src="{{cafe.image_url}}" >
 				<h2 >{{cafe.name}}</h2 >
 
@@ -67,6 +68,12 @@
 						<i class="ion ion-person" ></i >
 						{{cafe.review_count}}</span >
 				</p >
+
+				<ion-option-button class="button-positive" ng-click="getDirections(cafe)">
+					<i class="ion ion-map"></i>&nbsp;Map
+				</ion-option-button>
+
+
 			</ion-item >
 		</ion-list >
 
