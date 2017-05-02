@@ -25,8 +25,7 @@ app.service("YelpService", function ($q, $http, $cordovaGeolocation,$ionicPopup)
 
 
 			ionic.Platform.ready(function(){
-				$cordovaGeolocation
-				.getCurrentPosition({timeout:10000,enableHighAccuracy:false})
+				$cordovaGeolocation.getCurrentPosition({timeout:10000,enableHighAccuracy:false})
 				.then(function(position){
 					self.lat = position.coords.latitude;
 					self.lon = position.coords.logitude;
@@ -36,8 +35,7 @@ app.service("YelpService", function ($q, $http, $cordovaGeolocation,$ionicPopup)
 							lat: self.lat,
 							lon: self.lon
 						};
-
-						$http.get('https://api.codecraft.tv/samples/v1/coffee/', {params: params})
+/*						$http.get('https://api.codecraft.tv/samples/v1/coffee/', {params: params})
 							.success(function (data) {
 								self.isLoading = false;
 								console.log(data);
@@ -55,20 +53,17 @@ app.service("YelpService", function ($q, $http, $cordovaGeolocation,$ionicPopup)
 							.error(function (data, status, headers, config) {
 								self.isLoading = false;
 								deferred.reject(data);
-							});
+							});*/
 
 				}, function(err){
 					console.error("Error getting position")
-					console.error(err)
+					console.error(err.message)
 					$ionicPopup.alert({
 						'title' : 'Please switch on geolocation',
 						'template': "It seems lik you've switched off geolocation for caffeine"
 					})
 				})
 			})
-
-
-
 
 			return deferred.promise;
 		}
